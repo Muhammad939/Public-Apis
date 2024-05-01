@@ -1,0 +1,81 @@
+/* CSS styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#searchInput {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.video-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.video-title {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.channel-title {
+    font-size: 14px;
+    color: #777;
+}
+
+.subscribe-button,
+.open-channel-button {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe-button:hover,
+.open-channel-button:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
+
+
