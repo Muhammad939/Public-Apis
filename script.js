@@ -47,3 +47,18 @@ function searchVideos() {
         })
         .catch(error => console.error('Error:', error));
 }
+
+function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.querySelector('.theme-toggle svg');
+
+    if (body.classList.contains('dark-mode')) {
+        body.classList.remove('dark-mode');
+        body.classList.add('light-mode');
+        themeIcon.setAttribute('fill', '#000'); // Change SVG color for light mode
+    } else {
+        body.classList.remove('light-mode');
+        body.classList.add('dark-mode');
+        themeIcon.setAttribute('fill', '#fff'); // Change SVG color for dark mode
+    }
+}

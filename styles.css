@@ -14,6 +14,7 @@ h1 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    user-select: none; /* Disable user selection */
 }
 
 #searchInput {
@@ -78,4 +79,32 @@ button {
     background-color: #0056b3; /* Darker Blue */
 }
 
+/* Your existing CSS styles */
 
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.theme-toggle button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Light mode */
+body.light-mode {
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
