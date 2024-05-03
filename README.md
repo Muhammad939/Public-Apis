@@ -28,13 +28,6 @@ Contributions are welcome! Please fork this repository, make your changes, and s
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 Feel free to modify it according to your project's specific details and requirements.
 
-
-for github readme.md
-ChatGPT
-Sure, here's a revised version of the README.md specifically formatted for GitHub:
-
-markdown
-Copy code
 # Startube Search
 
 This is a simple web application called Startube Search that allows users to search for videos.
